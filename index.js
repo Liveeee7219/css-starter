@@ -29,4 +29,6 @@ const styles = transformStyleObject({
 root.classList.add(createClassName(styles))
 root.innerHTML = `
 <h1>You can use <code>@theme-ui/css</code> in Vanilla JS!</h1>
+
+theme.util.gx('color1', 'color2')
 `
